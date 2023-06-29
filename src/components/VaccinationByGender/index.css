@@ -1,0 +1,16 @@
+/* Write your CSS here */
+.by-gender-text {
+  font-weight: bold;
+  font-size: 14px;
+  font-family: 'roboto';
+  color: #161625;
+  padding: 9px;
+  text-align: left;
+  align-self: flex-start;
+}
+.pie-chart-container {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

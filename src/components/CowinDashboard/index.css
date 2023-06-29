@@ -1,0 +1,48 @@
+/* Write your CSS here */
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: max-content;
+  background-color: #161625;
+}
+.dashboards-container {
+  width: 90%;
+}
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+.logo {
+  height: 40px;
+  width: 40px;
+}
+.website-name {
+  font-weight: bold;
+  font-size: 24px;
+  color: #64c2a6;
+  font-family: 'Roboto';
+  padding-left: 10px;
+}
+.coverage-dashboard-container {
+  width: 100%;
+  background-color: #cbd5e1;
+  border: none;
+  border-radius: 7px;
+}
+.vaccination-heading {
+  font-weight: bold;
+  font-size: 23px;
+  font-family: 'roboto';
+  color: #ffffff;
+}
+.vaccination-gender-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: #cbd5e1;
+  border: none;
+  border-radius: 7px;
+  align-items: center;
+  margin-top: 13px;
+}

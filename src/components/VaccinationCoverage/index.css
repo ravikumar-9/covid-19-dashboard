@@ -1,0 +1,11 @@
+/* Write your CSS here */
+.vaccine-coverage-text {
+  font-weight: bold;
+  font-size: 14px;
+  font-family: 'roboto';
+  color: #161625;
+  padding: 9px;
+}
+.date {
+  color: white;
+}
