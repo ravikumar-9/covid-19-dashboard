@@ -81,19 +81,19 @@ class CowinDashboard extends Component {
     )
   }
 
-  renderFailureView = () => {
-    ;<img
+  renderFailureView = () => (
+    <img
       src="https://assets.ccbp.in/frontend/react-js/api-failure-view.png"
       alt="failure view"
       className="failure-img"
     />
-  }
+  (
 
-  renderLoaderView = () => {
-    ;<div data-testid="loader">
+  renderLoaderView = () => (
+    <div data-testid="loader">
       <Loader type="ThreeDots" color="#0284c7" height={80} width={80} />
     </div>
-  }
+  (
 
   renderSwitchCases = () => {
     const {apiStatus} = this.state
